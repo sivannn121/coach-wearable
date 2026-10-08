@@ -36,7 +36,7 @@ puis lancer un test de 2 semaines avec 8 à 10 personnes pour voir si elles appl
 
 bash
 pip install -r requirements.txt
-cp .env.example .env   # puis remplir les identifiants Google Health API
+cp .env.example .env   # puis remplir vos identifiants Google Health API + clés API Claude 
 python3 coach.py
 
 Claude Code est optionnel : sans lui, le récap fonctionne avec les messages par défaut. Les réponses au quiz restent en local dans data/.
